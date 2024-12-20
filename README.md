@@ -48,4 +48,4 @@ Invest $700 to get $10,000
 Invest $1000 to get $16,200
 Our minimum investment plan is $500
 GET INTO TOUCH AND READ MORE ABOUT OUR INVESTMENT PLAN ON WIKI TO READ MORE ABOUT INVESTING 
-Click on this link and look into our wiki https://github.com/rollie100/Bitcoin-investors.wiki.git
+
