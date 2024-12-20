@@ -1,0 +1,15 @@
+- uses: taiki-e/install-action@v2
+  with:
+    tool: cargo-hack
+- uses: taiki-e/install-action@cargo-hack
+- uses: taiki-e/install-action@v2
+  with:
+    tool: cargo-hack@0.5.24
+- uses: taiki-e/install-action@v2
+  with:
+    tool: cargo-hack@0.5
+uses: taiki-e/install-action@v2
+  with:
+    tool: cargo-hack,cargo-minimal-versions
+uses: taiki-e/install-action@cargo-hack
+- uses: taiki-e/install-action@cargo-minimal-versions
