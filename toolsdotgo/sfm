@@ -1,0 +1,36 @@
+name: Deploy my Stack
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Grab latest verison of sfm
+        uses: toolsdotgo/sfm-action@v1
+
+      - name: Form the Stack
+        run: sfm mk -t ./my-stack.yml my-stack
+        name: Deploy my Stack
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Grab latest verison of sfm
+        uses: toolsdotgo/sfm-action@v1
+        with:
+          version: v1.1.0
+
+      - name: Form the Stack
+        run: sfm mk -t ./my-stack.yml my-stack
