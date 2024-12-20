@@ -47,3 +47,4 @@ Invest $500 to get $8300
 Invest $700 to get $10,000
 Invest $1000 to get $16,200
 Our minimum investment plan is $500
+GET INTO TOUCH AND READ MORE ABOUT OUR INVESTMENT PLAN ON WIKI TO READ MORE ABOUT INVESTING 
