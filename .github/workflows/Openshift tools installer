@@ -1,0 +1,48 @@
+ - name: OpenShift Tools Installer
+ uses: redhat-actions/openshift-tools-installer@v1
+        steps:
+  - name: Install CLI tools from OpenShift Mirror
+    uses: redhat-actions/openshift-tools-installer@v1
+    with:
+
+      # "mirror" is the default source, so this is optional.
+      source: "mirror"
+
+      # Installs the latest kam release.
+      kam: "latest"
+
+      # Installs the latest release of oc with the major version 3.
+      # This is equivalent to "3.x" or "^3".
+      oc: "3"
+
+      # Installs the latest release of odo with the major version 2, and the minor version 0.
+      # This would install odo 2.0.3, but not odo 2.1.0.
+      odo: "2.0"
+
+      # This exact version will install version 0.11.0 of Tekton, no other version.
+      tkn: "0.11.0"
+
+  - name: Install CLI tools from GitHub
+    uses: redhat-actions/openshift-tools-installer@v1
+    with:
+      # Search through these projects' GitHub releases, instead of the OpenShift Mirror.
+      # https://docs.github.com/en/actions/reference/authentication-in-a-workflow
+      source: "github"
+
+      # Using GitHub token from the github context
+      github_pat: ${{ github.token }}
+
+      kam: "latest"
+      s2i: "1.2"
+      tkn: "0.17"   
+{
+    // ... other items omitted
+    oc: {
+        fromCache: true,
+        installedPath: "/home/runner/work/_temp/openshift-bin/oc",
+        url: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.3.40/openshift-client-linux-4.3.40.tar.gz",
+        version: "4.3.40"
+    }
+}
+  - run: |
+    apk add gcompat
