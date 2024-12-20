@@ -1,0 +1,10 @@
+name: YAKS
+
+on: pull_request
+
+jobs:
+  yaks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: YAKS client
+        uses: citrusframework/yaks-action@v1
