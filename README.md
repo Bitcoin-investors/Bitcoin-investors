@@ -1,5 +1,5 @@
 Bitcoin-investors
-Invest with us 
+invest with us 
 I have software that generate over $5000 in 1 week on binary trading option with amazing strategies and skills i employ i manage and guide you on how to earn up to $5000 successful 
 1 week. feel free to contact me if you are interested to earn extra profits on investing 
 ATTENTION EVERYBODY
