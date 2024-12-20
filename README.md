@@ -1,3 +1,9 @@
+Hi there, I'm Rollie! 👋
+
+## About Me
+I'm a passionate developer with a keen interest in building innovative solutions and exploring new technologies. I enjoy working on a variety of projects, from web development to data science, and I'm always eager to learn and grow my skill set.
+
+## Skills
 Bitcoin-investors
 invest with us 
 i have software that generate over $5000 in 1 week on binary trading option with amazing strategies and skills i employ i manage and guide you on how to earn up to $5000 successful 
