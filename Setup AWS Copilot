@@ -1,0 +1,10 @@
+              - name: Setup AWS Copilot
+                uses: softprops/setup-aws-copilot@v0.1.0
+          jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Setup AWS Copilot
+      uses: softprops/setup-aws-copilot@v1  
