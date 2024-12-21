@@ -1,0 +1,5 @@
+- name: Vals Binary Installer
+  uses: jkroepke/setup-vals@v1
+  with:
+    version: '<version>' # default is latest stable
+  id: install
