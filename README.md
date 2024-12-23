@@ -1,3 +1,4 @@
+Look through the files and directories in the repository to understand its components. You can do this by browsing the repository on GitHub.
 Hi there, I'm Rollie! 👋
 
 ## About Me
